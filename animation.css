@@ -17,8 +17,8 @@ body {
 }
 .ring {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ body {
   position: absolute;
   inset: 0;
   border: 2px solid #fff;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 .ring i:nth-child(1) {
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;

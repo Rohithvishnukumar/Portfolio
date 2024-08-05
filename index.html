@@ -11,37 +11,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="animation.css" />
+    <!-- <link rel="stylesheet" href="shimmer.css"> -->
+    <!-- <script src="shimmer.js"></script> -->
 
     <style>
+
+
+        .certifi
+        {
+            width: 90vw;
+            /* height: 500px; */
+            border-radius: 50px;
+            background-color: #13052765;
+            background: linear-gradient(0.25turn, #47379665, #0a021665);
+            box-shadow: 0 0 40px hsla(300, 59%, 86%, 0.53);
+
+            color: white;
+            font-family: "Open Sans";
+            font-optical-sizing: 90px;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 25px;
+            text-decoration: none;
+
+
+        }
+        .port {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            margin-left: 22vw;
+        }
+
         body {
             /* background-image: url(abstract-gradient-neon-lights\ \(1\)small.jpg); */
             /* background-size: cover; */
 
 
             background-image: url("abstract-gradient-neon-lights\ \(1\)-org.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  color: #FFFFFF;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: #FFFFFF;
         }
 
         .nav {
             background-color: #13052765;
             background: linear-gradient(0.25turn, #47379665, #0a021665);
             height: 50px;
-            width: 700px;
-            margin-left: 280px;
+            width: 42vw;
+            margin-left: 20vw;
             border-radius: 50px;
             margin-top: 20px;
             /* filter: blur(0.5px); */
             display: flex;
+            position: fixed;
+
         }
 
-        ul {
+        .navcls {
             display: flex;
             margin-top: 10px;
-            gap: 100px;
-            margin-left: 50px;
+            gap: 5vw;
+            margin-left: 3vw;
+        }
+
+        .ts {
+            display: flex;
+            margin-top: 10px;
+            gap: 1.3vw;
+            margin-left: 0px;
         }
 
         .anchnav {
@@ -55,20 +94,7 @@
             text-decoration: none;
         }
 
-        .port p {
-            font-family: "Open Sans";
-            /* font-optical-sizing: 90px; */
-            font-weight: 700;
-            font-style: normal;
-            font-variation-settings: "wdth" 100;
 
-            font-size: 30px;
-            text-decoration: none;
-            color: white;
-
-            margin-left: 410px;
-            margin-top: 5px;
-        }
 
         .name {
             color: white;
@@ -78,7 +104,7 @@
             font-style: normal;
             font-variation-settings: "wdth" 100;
 
-            font-size: 50px;
+            font-size: 40px;
             text-decoration: none;
         }
 
@@ -90,21 +116,33 @@
             font-style: normal;
             font-variation-settings: "wdth" 100;
 
-            font-size: 19px;
+            font-size: 17px;
             text-decoration: none;
         }
 
         .foran {
             display: flex;
+            /* flex-wrap: wrap-reverse; */
+            /* gap: 1vw; */
+            margin-right: 0.2vw;
         }
 
         .hero {
-            margin-top: 140px;
-            margin-left: 100px;
+            margin-top: 23vh;
+            margin-left: 1vw;
+            width: 35vw;
         }
 
         .tecst {
+            background-color: #13052765;
+            background: linear-gradient(0.25turn, #47379665, #0a021665);
+            box-shadow: 0 0 40px hsla(299, 91%, 47%, 0.392);
             margin-top: 0px;
+            width: 66vw;
+            height: 3.5vw;
+            border-radius: 30px;
+            /* margin-left: 5vw; */
+            gap: 10px;
         }
 
         .about {
@@ -124,16 +162,17 @@
             padding-top: 10px;
             font-size: 15px;
             font-weight: 700;
-            margin-left: 40vw;
+            margin-left: 35vw;
         }
 
         .r3 {
-            width: 660px;
-            height: 500px;
+            width: 60vw;
+            /* height: 350px; */
             background-color: #47379665;
-            background: linear-gradient(0.25turn, #2e236565, #0eaf1329);
+            background: linear-gradient(0.25turn, #2e236565, #0e16af29);
             border-radius: 30px;
-            margin-left: 70px;
+            box-shadow: 0 0 40px hsl(49, 62%, 52%);
+            margin-left: 14vw;
 
             font-family: "Open Sans";
             font-weight: 700;
@@ -145,9 +184,9 @@
 
         }
 
-        .aab {
+        /* .aab {
             display: flex;
-        }
+        } */
 
         .each {
             font-size: 50px;
@@ -160,7 +199,7 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            margin-left: 30px;
+            /* margin-left: 30px; */
         }
 
         .head {
@@ -168,6 +207,7 @@
             font-size: 40px;
             font-family: "Open Sans";
             font-weight: 800;
+            margin-left: 0px;
 
 
 
@@ -179,23 +219,24 @@
         }
 
         .para {
-            font-size: 25px;
+            font-size: 20px;
             font-family: "Open Sans";
-            font-weight: 800;
+            font-weight: 700;
             color: white;
+            width: 60vw;
         }
 
-        .ro1 {
+        /* .ro1 {
             margin-left: 30px;
-        }
+        } */
 
-        
 
-        .rvis1{
 
-            font-size: 40px;
+        .rvis1 {
+
+            font-size: 30px;
             font-family: "Open Sans";
-            font-weight: 800;
+            font-weight: 600;
             color: white;
 
 
@@ -205,12 +246,12 @@
             background-clip: text;
             color: transparent; */
 
-            margin-left: 100px;
+            /* margin-left: 100px; */
 
         }
 
-        .let{
-            font-size: 100px;
+        .let {
+            font-size: 70px;
             font-family: "Open Sans";
             font-weight: 800;
 
@@ -221,35 +262,82 @@
             background-clip: text;
             color: transparent;
 
-            margin-left: 60px;
+            /* margin-left: 60px; */
+        }
+
+        @media screen and (max-width: 768px) {
+
+            body {
+                display: flex;
+            }
+
+
+
+            .nav {
+                width: 150px;
+                height: 50px;
+                margin-left: 0px;
+            }
+
+            .nav ul {
+                display: flex;
+                gap: 10px;
+
+            }
+
+            .nav ul div a,
+            p {
+                font-size: 10px;
+                margin-top: 10px;
+
+            }
+
+
+
+            .bigparent {
+                width: 300px;
+            }
+
+
+        }
+
+        #rg {
+            /* margin-bottom: 110px ; */
+            margin-left: 0px;
         }
     </style>
 </head>
 
 <body style="overflow: auto; width: auto; overflow-x: hidden">
-    <div class="desk1" style="margin-bottom: 110px" id="rg">
+
+    <!-- <div class="bigparent"> -->
+
+
+    <div class="desk1" id="rg">
         <div class="nav">
-            <ul>
+            <ul class="navcls">
                 <div><a href="#rg" style="color: white" class="anchnav">Home</a></div>
                 <div><a href="#about" style="color: white" class="anchnav">About</a></div>
                 <div>
                     <a href="#proj" style="color: white" class="anchnav">Projects</a>
                 </div>
                 <div><a href="#contact" style="color: white" class="anchnav">Contact</a></div>
+                <!-- <div class="port anchnav" ><p><b>Portfolio</b></p></div> -->
             </ul>
-            <div class="port">
-                <p>Portfolio</p>
-            </div>
+
         </div>
 
         <div class="foran">
             <div class="hero">
                 <b>
                     <p class="name">Hi, I'm Rohith Vishnu</p>
+                    <!-- <div id="shimmerWave">Hi, I'm Rohith Vishnu</div> -->
                     <br />
                     <p class="r1">
-                        I'm a full-stack Web-developer with one year <br />
-                        of experience and a Jr.Machine Learning Engineer <br />
+                        I'm a Full-stack Web-developer with one year <br />
+                        of experience as an intern in multiple companies.My portfolio showcases a blend of technical
+                        proficiency and practical project experience, demonstrating my ability to deliver effective and
+                        scalable software solutions. <br /><br>
                         Let's Connect
                     </p>
                 </b>
@@ -269,15 +357,41 @@
                     <i style="--clr: #fffd44"></i>
                     <div class="login">
                         <img src="Rohith VITOPIA.jpg" alt="www"
-                            style="width: 440px; height: 410px; border-radius: 50%" />
+                            style="width: 370px; height: 350px;  border-radius: 50%" />
+
                     </div>
                 </div>
             </div>
         </div>
+        <br><br>
 
         <div class="tecst">
-            <img src="ts.png" alt="tech stack" class="tes"
-                style="width: 750px; margin-left: 90px; border-radius: 50px" />
+            <!-- <img src="ts.png" alt="tech stack" class="tes"
+                style="width: 750px; margin-left: 90px; border-radius: 50px" /> -->
+
+            <ul style="list-style-type: none; display: flex; flex-wrap: wrap;" class="ts">
+                <li style="margin-top: 1vw; font-size: 20px; margin-left: 1.5vw;"><b>Tech Stack | </b></li>
+                <li><img src="icons/java-logo-41D4155FC3-seeklogo.com.png" alt="" style="width: 75px; height: 50px;">
+                </li>
+                <li><img src="icons/Python-logo-notext.svg.png" alt=""
+                        style="width: 40px; height: 50px; margin-top: 0.5vh;"></li>
+                <li><img src="icons/js.webp" style="width: 35px; height: 38px; margin-top: 0.5vw"></li>
+                <li><img src="icons/html-5-logo-png-transparent.png"
+                        style="width: 34px; height: 45px; margin-top: 0.5vh;"></li>
+                <li><img src="icons/css3-logo-png-transparent.png" style="width: 50px; height: 55px;"></li>
+                <li><img src="icons/bootstrap-5-logo-icon.webp" alt=""
+                        style="width: 45px; height: 40px; margin-top: 0.7vh;"></li>
+                <li><img src="icons/nodejs-1-logo-png-transparent.png" alt="" style="width: 75px; height: 50px;"></li>
+                <li><img src="icons/1646733543.webp" alt="" style="width: 50px; height: 50px;"></li>
+                <li><img src="icons/flask-logo-png-transparent.png" alt=""
+                        style="width: 40px; height: 50px; filter: invert(1);"></li>
+                <li><img src="icons/mysql-5-logo-png-transparent.png" alt="" style="width: 80px; height: 80px;"></li>
+                <li><img src="icons/postman-logo-0087CA0D15-seeklogo.com.png" alt=""
+                        style="width: 35px; height: 35px; margin-top: 0.5vw;"></li>
+                <li><img src="icons/png-clipart-red-sign-logo-git-logo-icons-logos-emojis-tech-companies-thumbnail.png"
+                        alt="" style="width: 35px; height: 40px; margin-top: 0.5vw;"></li>
+
+            </ul>
         </div>
 
         <br /><br /><br /><br /><br /><br /><br /><br><br><br>
@@ -291,54 +405,40 @@
             <br><br><br><br><br><br>
 
 
-            <div class="aab">
+            <!-- <div class="aab"> -->
 
 
-                <div class="r3">
+            <div class="r3">
 
 
-                    <p>Welcome to my portfolio! I'm a Full Stack Web Developer
-                        and Junior Machine Learning Engineer currently in my
-                        second year at VIT-AP University, maintaining a CGPA of
-                        9.5. With an year ahead of experience in Full Stack web
-                        development, I specialize in HTML, CSS, JavaScript,
-                        Node.js, Python, Java, Bootstrap, Tailwind CSS, and
-                        MySQL.
-                        I've contributed to diverse web projects, emphasizing
-                        clean code and seamless user experiences. <br><br> My expertise in
-                        Data Structures, Algorithms, and programming enables
-                        me to tackle complex challenges efficiently. I've also
-                        ventured into Machine Learning adding intelligence to
-                        solutions. <br><br>
-                        In the realm of research, I've contributed to a paper in
-                        computer vision, showcasing my commitment to
-                        innovation. Explore my portfolio to witness the fusion of
-                        creativity and technical proficiency, as I look forward to
-                        new opportunities and challenges. </p>
-
-                </div>
-
-                <div class="r4" style="margin-left: 200px;">
-
-                    <ul style="display: inline-block;">
-                        <li style="display: inline-block; float: left; clear: left;"><img
-                                src="Screenshot 2024-03-14 170955.png"
-                                style="width: 500px; margin-bottom: 30px; border-radius: 20px;"></li>
-                        <li style="display: inline-block; float: left; clear: left;"><img
-                                src="Screenshot 2024-03-14 171034.png"
-                                style="width: 500px; margin-bottom: 30px; border-radius: 20px;"></li>
-                        <li style="display: inline-block; float: left; clear: left;"><img
-                                src="Screenshot 2024-03-14 171108.png"
-                                style="width: 500px; margin-bottom: 30px; border-radius: 20px;"></li>
-                        <li style="display: inline-block; float: left; clear: left;"><img
-                                src="Screenshot 2024-03-14 171143.png"
-                                style="width: 500px; margin-bottom: 30px; border-radius: 20px;"></li>
-                    </ul>
-                </div>
+                <p>Welcome to my portfolio! I'm a Full Stack Web Developer
+                    currently in my
+                    Third year at VIT-AP University, maintaining a CGPA of
+                    9.36 With an year ahead of experience in Full Stack web
+                    development, I specialize in Java, Python, JavaScript,HTML, CSS, BootStrap, jQuery, NodeJS,
+                    ExpressJS, Flask, FetchAPI, Axios, RestfulAPI, MySQL, Git and GitHub, Postman, Windows/Linux
+                    Environments.
 
 
+                    I've contributed to diverse web projects, emphasizing
+                    clean code and seamless user experiences. My expertise in
+                    Data Structures, Algorithms, and programming enables
+                    me to tackle complex challenges efficiently.<br><br>
+                    In the realm of research, I've contributed to a paper in
+                    computer vision, showcasing my commitment to
+                    innovation. Explore my portfolio to witness the fusion of
+                    creativity and technical proficiency, as I look forward to
+                    new opportunities and challenges.
+
+                </p><br>
 
             </div>
+
+
+
+
+
+            <!-- </div> -->
         </div>
 
 
@@ -350,76 +450,119 @@
             <p class="each">Each Project is a Unique piece of Development</p><br><br><br><br><br></b>
 
             <div class="ro1">
-                <p class="head">CodeCourse - An Edtech Website</p><br>
+                <p class="head">1) Document Search Reader Tool</p><br>
 
-                <div style="display: flex; gap: 150px;">
-                <p class="para">CodeCourse is an online Platform that allows
-                    user <br> to buy and sell courses. This Website
-                    provides <br> an interface for learning , skill building
-                    and Earning</p>
+                <div style="display: flex; gap: 15vw;">
+                    <p class="para">Developed a versatile document processing tool that extracts text from various
+                        formats, including embedded images. It
+                        features real-time search with support for multiple keywords and synonyms and an Advanced Search
+                        which is capable
+                        of processing natural human language queries, providing prompt-based results line by line, these
+                        are implemented using
+                        Natural Language Processing, alongside I have integrated spell-checking and summarization. Users
+                        can download and
+                        store summarized documents in a MySQL database. I have also implemented Multi-Factor
+                        Authentication (MFA)
+                        for secure user login. Additionally I have resolved scalability issues that have occurred on the
+                        way. <br><br>
+                        <I>Skills Used – Flask, Python, Web API, MySQL, OCR, HTML, CSS, JavaScript, Git and GitHub,
+                            Fetch API, SMTP Client, NLP</I>
+                    </p>
 
-                    <a href="https://github.com/Rohithvishnukumar/Rohith_BootStrap_Website_1"><img src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
+                    <a target="_blank" href="https://github.com/Rohithvishnukumar/Document_Search_Reader"><img
+                            src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
                 </div>
             </div>
 
 
-            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
 
 
             <div class="ro1">
-                <p class="head">Smart Bus - An intelligent <br> Bus monitoring System</p><br>
+                <p class="head">2) Pro-Pomodoro </p><br>
 
-                <div style="display: flex; gap: 150px;">
-                <p class="para">Smart Bus is an application designed to manage,<br>
-                    send notifications, see traffic updates and Track
-                    Buses <br>in real time</p>
+                <div style="display: flex; gap: 15vw;">
+                    <p class="para">Developed a full-stack Pomodoro application to boost user productivity by tracking
+                        set times and completed tasks.
+                        Implemented MySQL database storage for persistent data tracking and created dynamic charts to
+                        display daily
+                        productivity and time spent. Using object-oriented programming, I built robust and scalable
+                        solutions, integrating
+                        user authentication and session management for a personalized experience. Adhered to best
+                        practices in software
+                        development, including code reviews and version control (Git), and quickly adopted new
+                        technologies and methods
+                        to enhance performance and user experience. <br><br>
+                        <i>Skills Used – NodeJS, ExpressJS, OOPs, MVC, Web API, MySQL, HTML, CSS, JavaScript, Fetch
+                            API, Git and GitHub, Axios
+                    </p></i>
 
-                    <a href="https://github.com/Rohithvishnukumar/Smart-bus"><img src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
+                    <a target="_blank" href="https://github.com/Rohithvishnukumar/Pomodoro_Rohith_Vishnu"><img
+                            src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
                 </div>
             </div>
 
 
-            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
 
             <div class="ro1">
-                <p class="head">Calculator</p><br>
+                <p class="head">3) Virtual Assistant:</p><br>
 
-                <div style="display: flex; gap: 150px;">
-                <p class="para">A simple calculator with dark mode</p>
+                <div style="display: flex; gap: 15vw;">
+                    <p class="para">Developed a virtual assistant which enables hands-free interaction through voice
+                        commands. The assistant uses
+                        speechrecognition module to recognize user queries and pyttsx3 for speech output.It searches for
+                        information from
+                        Wikipedia and Google, and reads out summaries. The assistant can open websites directly through
+                        voice commands.
+                        It announces the current time on request and plays music from Spotify or local directories.
+                        Additionally, it can open
+                        various applications like VS Code, Calculator, Notepad, and system settings, boosting
+                        efficiency. It performs Google
+                        searches based on user queries and implements pyttsx3 for clear and responsive speech synthesis.
+                        <br><br>
+                        <i>Skills Used – Python, Tkinter, pyautogui, speechrecognition, pyttsx3
+                    </p></i>
 
-                    <a href="https://github.com/Rohithvishnukumar/Calculator"><img src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
+                    <a target="_blank" href="https://github.com/Rohithvishnukumar/Virtual-Assistant-"><img
+                            src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
                 </div>
             </div>
 
 
-            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
 
             <div class="ro1">
-                <p class="head">Amazon Recommendation System</p><br>
+                <p class="head">4) Spatial Mouse</p><br>
 
-                <div style="display: flex; gap: 150px;">
-                <p class="para">Amazon Recommendation system is an ML Application <br> which is deployed on
-                    Web, predicts the products based  <br> on user's intrests
-                    and gives personalised recommendations.</p>
+                <div style="display: flex; gap: 15vw;">
+                    <p class="para"> An extraordinary project harnessing the power of OpenCV and MediaPipe. With these
+                        cutting-edge
+                        technologies, I've crafted a revolutionary interface where human hand gestures replace
+                        conventional mouse controls. This
+                        innovation not only showcases my proficiency in computer vision and machine learning but also
+                        demonstrates my
+                        commitment to redefining user interactions through technology.</p>
 
-                    <a href="https://github.com/Rohithvishnukumar/Projects/tree/main/Amazon%20Recomendation"><img src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
+                    <a target="_blank" href="https://github.com/Rohithvishnukumar?tab=repositories"><img
+                            src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
                 </div>
             </div>
 
 
-            <br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
 
 
             <div class="ro1">
-                <p class="head">Virtual Assistant</p><br>
+                <p class="head">5) Code Course – An Edtech Website</p><br>
 
-                <div style="display: flex; gap: 150px;">
-                <p class="para">Virtual Assistant is an application which is makes
-                    life <br> easier, it can automate many tasks from
-                    setting a <br> remainder, browsing the Web to Taking
-                    Notes on the go.</p>
+                <div style="display: flex; gap: 15vw;">
+                    <p class="para">Code Course is an online Platform that allows user to buy and sell courses. This
+                        Website provides an interface for
+                        learning, skill building and Earning (Using HTML, CSS , JavaScript, Bootstrap)</p>
 
-                    <a href="https://github.com/Rohithvishnukumar/Virtual-Assistant-"><img src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
+                    <a target="_blank" href="https://github.com/Rohithvishnukumar/Rohith_BootStrap_Website_1"><img
+                            src="github-icon-1024x999-gafis98v.png" style="width: 60px;"></a>
                 </div>
             </div>
 
@@ -429,25 +572,51 @@
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+            <div class="certifi">
+                <p class="each" style="font-size: 45px; margin-left: 23vw;">Certifications and Acheivements</p><br><br>
+                <ul style="padding-left: 3vw;">
+                    <li>Microsoft Learn Student Ambassadors – (Beta Level)</li><br>
+                    <li>Linux Commands and Shell Scripting from IBM</li><br>
+                    <li>CS-50 Certification from Harvard</li><br>
+                    <li>Certified Backend Developer from IBM</li><br>
+                    <li>Full Stack Web developer Certification by Angela Yu</li><br>
+                    <li>Oracle Academy Java Certification</li><br>
+                    <li>Selected for the Smart India Hackathon (SIH) and Achieved Top 5 Project Recognition at the University Level</li><br>
+                    <li>Served as Co-Lead in my University’s Technical Chapter (Computer Society of India)</li><br>
+                    <li>Hosted Live Events on Python, Java, JavaScript in my University</li><br>
+                    <li>Conducted Workshops on Software Development and Contributed to a wide variety of projects</li><br>
+                </ul>
+            </div>
+
+            <br><br><br><br><br><br>
 
 
             <div class="contact" id="contact">
 
-                <p class="let">Let's Connect</p>
+                <p class="let">Let's Connect</p><br><br>
 
-                <a href="mailto:rohithvishnuk@gmail.com"  class="rvis1"><p class="rvis1">Mail:    rohithvishnuk@gmail.com</p></a>
-                <a href="tel:+918247650717" class="rvis1"></a><p class="rvis1">Phone:    8247650717   (India)</p>
-                <a href="https://www.linkedin.com/in/rohith-vishnu-kumar-26368a251/" class="rvis1"><p class="rvis1">LinkedIn:    https://www.linkedin.com/in/rohith-vishnu-kumar-26368a251/</p></a>
+                <a href="mailto:rohithvishnuk@gmail.com" class="rvis1">
+                    <p class="rvis1"><img src="icons/upd.png" alt="" style="filter: invert(1); width: 3vw;"> rohithvishnuk@gmail.com</p>
+                </a>
+                <a href="tel:+918247650717" class="rvis1"></a><br>
+                <p class="rvis1">Phone: (+91) 8247650717 </p><br>
+                <a href="https://www.linkedin.com/in/rohith-vishnu-kumar-26368a251/" class="rvis1">
+                    <p class="rvis1">LinkedIn: https://www.linkedin.com/in/rohith-vishnu-kumar-26368a251/</p>
+                </a>
+                <br><br><br><br><br>
             </div>
 
 
-            
 
 
 
 
+
+            <!-- </div> -->
         </div>
+
     </div>
+
 </body>
 
 </html>
